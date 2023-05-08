@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" 
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random Password</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br><span>Random Password</span></h1>
+    </div>
+    <div class="display">
+        <input type="text" id="password" placeholder="password">
+        <i class="bi bi-clipboard2-check-fill" onclick="copyPassword()"></i>
+    </div>
+    <button onclick="createPassword()"> <i class="bi bi-check-all"> </i>Generate Password</button>
+    <script src="main.js"></script>
+</body>
+</html>
